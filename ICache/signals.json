@@ -1,0 +1,1290 @@
+{
+    "ICache__metaArray_io_read_ready": {
+        "High": -1,
+        "Low": 0,
+        "Pin": "wire",
+        "_": true
+    },
+    "auto": {
+        "client_out": {
+            "a": {
+                "bits": {
+                    "address": {
+                        "High": 47,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "source": {
+                        "High": 3,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    }
+                },
+                "ready": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                }
+            },
+            "d": {
+                "bits": {
+                    "corrupt": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "data": {
+                        "High": 255,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "opcode": {
+                        "High": 3,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "size": {
+                        "High": 2,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "source": {
+                        "High": 3,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                }
+            }
+        },
+        "ctrlUnitOpt_in": {
+            "a": {
+                "bits": {
+                    "address": {
+                        "High": 29,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "data": {
+                        "High": 63,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "mask": {
+                        "High": 7,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "opcode": {
+                        "High": 3,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "size": {
+                        "High": 1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "source": {
+                        "High": 2,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                },
+                "ready": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                }
+            },
+            "d": {
+                "bits": {
+                    "data": {
+                        "High": 63,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "opcode": {
+                        "High": 3,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "size": {
+                        "High": 1,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "source": {
+                        "High": 2,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    }
+                },
+                "ready": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                }
+            }
+        }
+    },
+    "boreChildrenBd_bore": {
+        "1": {
+            "ack": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "addr_rd": {
+                "High": 8,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "all": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "array": {
+                "High": 3,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "be": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "indata": {
+                "High": 65,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "outdata": {
+                "High": 65,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "readen": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "req": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "writeen": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            }
+        },
+        "2": {
+            "ack": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "addr_rd": {
+                "High": 8,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "all": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "array": {
+                "High": 4,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "be": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "indata": {
+                "High": 65,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "outdata": {
+                "High": 65,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "readen": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "req": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "writeen": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            }
+        },
+        "3": {
+            "ack": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "addr_rd": {
+                "High": 8,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "all": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "array": {
+                "High": 4,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "be": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "indata": {
+                "High": 65,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "outdata": {
+                "High": 65,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "readen": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "req": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "writeen": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            }
+        },
+        "4": {
+            "ack": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "addr_rd": {
+                "High": 8,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "all": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "array": {
+                "High": 5,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "be": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "indata": {
+                "High": 65,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "outdata": {
+                "High": 65,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "readen": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "req": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "writeen": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            }
+        },
+        "ack": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "output",
+            "_": true
+        },
+        "addr_rd": {
+            "High": 7,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "all": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "array": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "be": {
+            "High": 3,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "indata": {
+            "High": 147,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "outdata": {
+            "High": 147,
+            "Low": 0,
+            "Pin": "output",
+            "_": true
+        },
+        "readen": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "req": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "writeen": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        }
+    },
+    "clock": {
+        "High": -1,
+        "Low": 0,
+        "Pin": "input",
+        "_": true
+    },
+    "io": {
+        "csr_pf_enable": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "error": {
+            "bits": {
+                "paddr": {
+                    "High": 47,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "report_to_beu": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                }
+            },
+            "valid": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            }
+        },
+        "fencei": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "fetch": {
+            "req": {
+                "bits": {
+                    "backendException": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "pcMemRead": {
+                        "0": {
+                            "nextlineStart": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "startAddr": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            }
+                        },
+                        "1": {
+                            "nextlineStart": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "startAddr": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            }
+                        },
+                        "2": {
+                            "nextlineStart": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "startAddr": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            }
+                        },
+                        "3": {
+                            "nextlineStart": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "startAddr": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            }
+                        },
+                        "4": {
+                            "nextlineStart": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "startAddr": {
+                                "High": 49,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            }
+                        }
+                    },
+                    "readValid": {
+                        "0": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        },
+                        "1": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        },
+                        "2": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        },
+                        "3": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        },
+                        "4": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    }
+                },
+                "ready": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                }
+            },
+            "resp": {
+                "bits": {
+                    "backendException": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "data": {
+                        "High": 511,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "doubleline": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "exception": {
+                        "0": {
+                            "High": 1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        },
+                        "1": {
+                            "High": 1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    },
+                    "gpaddr": {
+                        "High": 55,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "isForVSnonLeafPTE": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "itlb_pbmt": {
+                        "0": {
+                            "High": 1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        },
+                        "1": {
+                            "High": 1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    },
+                    "paddr": {
+                        "0": {
+                            "High": 47,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    },
+                    "pmp_mmio": {
+                        "0": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        },
+                        "1": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    },
+                    "vaddr": {
+                        "0": {
+                            "High": 49,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        },
+                        "1": {
+                            "High": 49,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    }
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                }
+            },
+            "topdownIcacheMiss": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "topdownItlbMiss": {
+                "High": -1,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            }
+        },
+        "flush": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "ftqPrefetch": {
+            "backendException": {
+                "High": 1,
+                "Low": 0,
+                "Pin": "input",
+                "_": true
+            },
+            "flushFromBpu": {
+                "s2": {
+                    "bits": {
+                        "flag": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        },
+                        "value": {
+                            "High": 5,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    },
+                    "valid": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                },
+                "s3": {
+                    "bits": {
+                        "flag": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        },
+                        "value": {
+                            "High": 5,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    },
+                    "valid": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                }
+            },
+            "req": {
+                "bits": {
+                    "ftqIdx": {
+                        "flag": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        },
+                        "value": {
+                            "High": 5,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    },
+                    "nextlineStart": {
+                        "High": 49,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "startAddr": {
+                        "High": 49,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                },
+                "ready": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                }
+            }
+        },
+        "hartId": {
+            "High": 5,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "itlb": {
+            "0": {
+                "req": {
+                    "bits_vaddr": {
+                        "High": 49,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "valid": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    }
+                },
+                "resp_bits": {
+                    "excp": {
+                        "0": {
+                            "af_instr": {
+                                "High": -1,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "gpf_instr": {
+                                "High": -1,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "pf_instr": {
+                                "High": -1,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            }
+                        }
+                    },
+                    "gpaddr": {
+                        "0": {
+                            "High": 63,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    },
+                    "isForVSnonLeafPTE": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "miss": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "paddr": {
+                        "0": {
+                            "High": 47,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    },
+                    "pbmt": {
+                        "0": {
+                            "High": 1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    }
+                }
+            },
+            "1": {
+                "req": {
+                    "bits_vaddr": {
+                        "High": 49,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "valid": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    }
+                },
+                "resp_bits": {
+                    "excp": {
+                        "0": {
+                            "af_instr": {
+                                "High": -1,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "gpf_instr": {
+                                "High": -1,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            },
+                            "pf_instr": {
+                                "High": -1,
+                                "Low": 0,
+                                "Pin": "input",
+                                "_": true
+                            }
+                        }
+                    },
+                    "gpaddr": {
+                        "0": {
+                            "High": 63,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    },
+                    "isForVSnonLeafPTE": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "miss": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "paddr": {
+                        "0": {
+                            "High": 47,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    },
+                    "pbmt": {
+                        "0": {
+                            "High": 1,
+                            "Low": 0,
+                            "Pin": "input",
+                            "_": true
+                        }
+                    }
+                }
+            }
+        },
+        "itlbFlushPipe": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "output",
+            "_": true
+        },
+        "perfInfo": {
+            "bank_hit": {
+                "0": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "1": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                }
+            },
+            "except": {
+                "0": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                }
+            },
+            "hit": {
+                "0": {
+                    "except": {
+                        "1": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    },
+                    "hit": {
+                        "1": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    },
+                    "miss": {
+                        "1": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    }
+                },
+                "High": -1,
+                "Low": 0,
+                "Pin": "output",
+                "_": true
+            },
+            "miss": {
+                "0": {
+                    "except": {
+                        "1": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    },
+                    "hit": {
+                        "1": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    },
+                    "miss": {
+                        "1": {
+                            "High": -1,
+                            "Low": 0,
+                            "Pin": "output",
+                            "_": true
+                        }
+                    }
+                }
+            },
+            "only": {
+                "0": {
+                    "hit": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    },
+                    "miss": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "output",
+                        "_": true
+                    }
+                }
+            }
+        },
+        "pmp": {
+            "0": {
+                "req_bits_addr": {
+                    "High": 47,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "resp": {
+                    "instr": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "mmio": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                }
+            },
+            "1": {
+                "req_bits_addr": {
+                    "High": 47,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "resp": {
+                    "instr": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "mmio": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                }
+            },
+            "2": {
+                "req_bits_addr": {
+                    "High": 47,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "resp": {
+                    "instr": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "mmio": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                }
+            },
+            "3": {
+                "req_bits_addr": {
+                    "High": 47,
+                    "Low": 0,
+                    "Pin": "output",
+                    "_": true
+                },
+                "resp": {
+                    "instr": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    },
+                    "mmio": {
+                        "High": -1,
+                        "Low": 0,
+                        "Pin": "input",
+                        "_": true
+                    }
+                }
+            }
+        },
+        "softPrefetch": {
+            "0": {
+                "bits_vaddr": {
+                    "High": 49,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                }
+            },
+            "1": {
+                "bits_vaddr": {
+                    "High": 49,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                }
+            },
+            "2": {
+                "bits_vaddr": {
+                    "High": 49,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                },
+                "valid": {
+                    "High": -1,
+                    "Low": 0,
+                    "Pin": "input",
+                    "_": true
+                }
+            }
+        },
+        "stop": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "input",
+            "_": true
+        },
+        "toIFU": {
+            "High": -1,
+            "Low": 0,
+            "Pin": "output",
+            "_": true
+        }
+    },
+    "reset": {
+        "High": -1,
+        "Low": 0,
+        "Pin": "input",
+        "_": true
+    }
+}
